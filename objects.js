@@ -1,7 +1,7 @@
 var playlist = {StVincent: "birth in reverse"};
 
 function updatePlaylist(playlist,artist,song){
-  playlist.artist = song;
+  Object.assign({playlis
   return playlist;
 }
 
